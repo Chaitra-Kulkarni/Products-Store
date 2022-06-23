@@ -20,6 +20,7 @@ const GetProducts = () => {
         axios.get(PRODUCTS_CATEGORY_URL)
         .then(response => {
             console.log(response.data);
+            setProductsList(response.data)
         })
     }, [category])
   
