@@ -1,9 +1,9 @@
-import GetProducts from "./components/GetProducts";
+import ProductWrapper from "./components/ProductWrapper";
 
 function App() {
 
   return (
-    <GetProducts />
+    <ProductWrapper />
   );
 }
 
