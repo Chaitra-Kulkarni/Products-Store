@@ -25,17 +25,17 @@ const ProductWrapper = () => {
 
   return (
     <>
+    <div className="d-flex justify-content-around bg-success">
       <button className="btn btn-dark btn-lg m-2" onClick={loadProducts}>
         View Products
       </button>
-
       <input
         type="search"
         placeholder="Search"
-        className="border border-dark border-2 rounded-2"
+        className="border border-light border-2 rounded-2 align-self-center"
       />
-
-      <label>Total Items: {count}</label>
+      <label className="text-white align-self-center fs-5">Total Items: {count}</label>
+      </div>
 
       <div>
         <label>Filter :</label>
